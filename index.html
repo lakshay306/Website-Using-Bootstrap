@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+
+  </style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+  <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849m.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1s-.458.158-.678.599"/>
+</svg>Let's Fly!</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Aircraft Information & Classification</a></li>
+            <li><a class="dropdown-item" href="#">Education Aviation Content</a></li>
+            <li><a class="dropdown-item" href="#">Student-Friendly Explanations</a></li>
+            <li><a class="dropdown-item" href="#">Charter Planes</a></li>
+            <li><a class="dropdown-item" href="#">Modern & Responsive Design</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Find aircraft" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container col-xxl-8 px-4 py-5"> 
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> 
+    <div class="col-10 col-sm-8 col-lg-6"> 
+      <img src="./plane.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> 
+    </div> 
+    <div class="col-lg-6"> 
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Explore the World of Aviation with Confidence</h1> 
+      <p class="lead">
+        Discover different types of aircraft used for travel, business, rescue, and transport. Learn how each aircraft serves a unique purpose in modern aviation.        
+      </p> 
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Explore Aircraft</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Learn More</button>
+      </div>
+    </div> 
+  </div> 
+</div>
+
+<div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"> 
+  <div class="col"> 
+    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('commercial_airplane.jpeg');"> 
+      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+        <h3 class="pt-0 mt-5 mb-4 display-6 lh-1 fw-bold" style="background-color: rgba(22, 3, 3, 0.308);">Commercial Airplanes</h3> 
+        <ul class="d-flex list-unstyled mt-auto"> 
+          <li class="me-auto"> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16" style="background-color: rgba(22, 3, 3, 0.308);">
+            <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849m.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1s-.458.158-.678.599"/>
+            </svg>          
+          </li> 
+          <li class="d-flex align-items-center me-3"> 
+            <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+              <use xlink:href="#geo-fill"></use>
+            </svg> 
+            <small style="background-color: rgba(22, 3, 3, 0.308);">✈Global Travel•High Capacity</small> 
+          </li> 
+          <li class="d-flex align-items-center">
+          <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Duration">
+            <use xlink:href="#calendar3"></use>
+          </svg> 
+          <small style="background-color: rgba(22, 3, 3, 0.308);">3d</small> 
+        </li> 
+      </ul> 
+    </div> 
+  </div> 
+</div> 
+<div class="col"> 
+  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('helicopters.jpeg');"> 
+    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+      <h3 class="pt-0 mt-5 mb-4 display-6 lh-1 fw-bold" style="background-color: rgba(22, 3, 3, 0.308);">Helicopters for Special Missions</h3> 
+      <ul class="d-flex list-unstyled mt-auto"> 
+        <li class="me-auto"> 
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16" style="background-color: rgba(22, 3, 3, 0.308);">
+          <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849m.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1s-.458.158-.678.599"/>
+          </svg>        
+        </li> 
+        <li class="d-flex align-items-center me-3"> 
+          <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+            <use xlink:href="#geo-fill"></use>
+          </svg> 
+          <small style="background-color: rgba(22, 3, 3, 0.308);">🚑Emergency•Rescue</small> 
+        </li> 
+        <li class="d-flex align-items-center"> 
+          <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Duration" >
+            <use xlink:href="#calendar3"></use>
+          </svg> 
+          <small style="background-color: rgba(22, 3, 3, 0.308);">4d</small> 
+        </li> 
+      </ul> 
+    </div> 
+  </div> 
+</div> 
+<div class="col"> 
+  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('private_jet.jpeg');"> 
+    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1"> 
+      <h3 class="pt-0 mt-5 mb-4 display-6 lh-1 fw-bold" style="background-color: rgba(22, 3, 3, 0.308);">Private & Charter Jets</h3> 
+      <ul class="d-flex list-unstyled mt-auto"> 
+        <li class="me-auto"> 
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16" style="background-color: rgba(22, 3, 3, 0.308);">
+          <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849m.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1s-.458.158-.678.599"/>
+          </svg>        
+        </li> 
+        <li class="d-flex align-items-center me-3"> 
+          <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+            <use xlink:href="#geo-fill"></use>
+          </svg> 
+          <small style="background-color: rgba(22, 3, 3, 0.308);">💼Business•Luxury Travel</small> 
+        </li> 
+        <li class="d-flex align-items-center"> 
+          <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Duration" >
+            <use xlink:href="#calendar3"></use>
+          </svg> 
+          <small style="background-color: rgba(22, 3, 3, 0.308);">5d</small> 
+        </li> 
+      </ul> 
+    </div> 
+  </div>
+</div> 
+</div>
+
+<div class="container">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./airplane.jpeg" class="d-block w-100" alt="commercial_airplane">
+    </div>
+    <div class="carousel-item">
+      <img src="./helicopter.jpeg" class="d-block w-100" alt="helicopter">
+    </div>
+    <div class="carousel-item">
+      <img src="./jet.jpeg" class="d-block w-100" alt="private_jet">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<div class="container"> 
+  <footer class="py-5"> 
+    <div class="row"> 
+      <div class="col-6 col-md-2 mb-3"> 
+        <h5>Explore</h5> 
+        <ul class="nav flex-column"> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Aircraft Types</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">About Us</a>
+          </li> 
+        </ul> 
+      </div> 
+      <div class="col-6 col-md-2 mb-3"> 
+        <h5>Aircraft</h5> 
+        <ul class="nav flex-column"> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Commercial Planes</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Helicopters</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Privet Jets</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Charter Flights</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Cargo Aircraft</a>
+          </li> 
+        </ul> 
+      </div> 
+      <div class="col-6 col-md-2 mb-3"> 
+        <h5>Resources</h5> 
+        <ul class="nav flex-column"> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Aviation Basics</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Safety Guidlines</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Student Notes</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Project Help</a>
+          </li> 
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Contact</a>
+          </li> 
+        </ul> 
+      </div> 
+      <div class="col-md-5 offset-md-1 mb-3"> 
+        <form> 
+          <h5>Subscribe to our newsletter</h5> 
+          <p>Get the latest updates, aviation facts, and learning resources delivered straight to your inbox.</p> 
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2"> 
+            <label for="newsletter1" class="visually-hidden">Email address</label> 
+            <input id="newsletter1" type="email" class="form-control" placeholder="Email address"> 
+            <button class="btn btn-primary" type="button">Subscribe</button> 
+          </div> 
+        </form> 
+      </div> 
+    </div> 
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"> <p>© 2026 Lets Fly! Inc. All rights reserved.</p> <ul class="list-unstyled d-flex"> <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li> <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#facebook"></use></svg></a></li> </ul> </div> </footer> </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
